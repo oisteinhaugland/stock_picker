@@ -29,8 +29,7 @@ def stock_picker(prices)
 	end
 
 	sold = "Bought stock at day #{buy_day} for #{buy_value}$ -  Sold stock at day #{sell_day} for #{sell_value}$. Profit: "
-	profit = sell_value - buy_value
-	return sold + profit.to_s + "$"
+	return sold + differance.to_s + "$"
 	
 end
 
